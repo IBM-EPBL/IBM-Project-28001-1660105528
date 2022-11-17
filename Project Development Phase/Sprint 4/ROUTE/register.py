@@ -26,4 +26,4 @@ class Register(Resource):
  newEmailSender(email)
  return response
  
- return {"status":"Successfully registered"},20
+ return {"status":"Successfully registered"},200
